@@ -1,0 +1,146 @@
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+    google()
+    mavenCentral()
+
+    maven { url "https://artifactory.bidmachine.io/bidmachine" }
+    maven { url "https://android-sdk.is.com" }
+    maven { url "https://imobile-maio.github.io/maven" }
+    maven { url "https://dl-maven-android.mintegral.com/repository/mbridge_android_sdk_oversea" }
+    maven { url "https://fan-adn.github.io/nendSDK-Android-lib/library" }
+    maven { url "https://maven.ogury.co" }
+    maven { url "https://artifact.bytedance.com/repository/pangle" }
+    maven { url "https://s3.amazonaws.com/smaato-sdk-releases/" }
+    maven { url "https://sdk.tapjoy.com" }
+    maven { url "https://verve.jfrog.io/artifactory/verve-gradle-release" }
+    maven { url "https://artifactory.yahooinc.com/artifactory/maven" }
+
+    maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+}
+
+android {
+    namespace = "com.example.tubedown"
+
+    defaultConfig {
+        applicationId = "com.example.tubedown"
+        compileSdk 36
+        minSdkVersion 24
+        targetSdkVersion 36
+        versionCode = 500031
+        versionName = "5.3.1"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables {
+            useSupportLibrary = true
+        }
+    }
+
+    signingConfigs {
+        register("release") {
+        }
+    }
+
+    buildTypes {
+        release {
+            multiDexEnabled = true
+            minifyEnabled false
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
+            )
+            signingConfig = signingConfigs.getByName("release")
+        }
+        debug {
+            multiDexEnabled = true
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    buildFeatures {
+//        compose = true
+        buildConfig = true
+    }
+
+    ndkVersion "28.0.12433566"
+//    kotlinOptions {
+//        jvmTarget = "1.8"
+//    }
+//    composeOptions {
+//        kotlinCompilerExtensionVersion = "1.4.3"
+//    }
+//    packaging {
+//        resources {
+//            excludes += "/META-INF/{AL2.0,LGPL2.1}"
+//        }
+//    }
+}
+
+dependencies {
+
+    implementation("androidx.core:core-ktx:1.13.0")
+//    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.7")
+//    implementation("androidx.activity:activity-compose:1.8.1")
+//    implementation(platform("androidx.compose:compose-bom:2023.03.00"))
+//    implementation("androidx.compose.ui:ui")
+//    implementation("androidx.compose.ui:ui-graphics")
+//    implementation("androidx.compose.ui:ui-tooling-preview")
+//    implementation("androidx.compose.material3:material3")
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation project(':lib')
+    implementation("androidx.cardview:cardview:1.0.0")
+    implementation("com.google.firebase:firebase-config:23.0.0")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+//    testImplementation("junit:junit:4.13.2")
+//    androidTestImplementation("androidx.test.ext:junit:1.1.5")
+//    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+//    androidTestImplementation(platform("androidx.compose:compose-bom:2023.03.00"))
+//    androidTestImplementation("androidx.compose.ui:ui-test-junit4")
+//    debugImplementation("androidx.compose.ui:ui-tooling")
+//    debugImplementation("androidx.compose.ui:ui-test-manifest")
+    implementation ("androidx.multidex:multidex:2.0.1")
+    implementation("androidx.recyclerview:recyclerview:1.3.2")
+//    implementation("com.google.gms:google-services:4.4.0")
+
+    //inmobi
+//    implementation 'com.inmobi.monetization:inmobi-ads:10.1.3'
+//    implementation("com.inmobi.monetization:inmobi-ads-kotlin:10.6.2")
+//    implementation("com.google.android.gms:play-services-ads-identifier:17.0.0")
+//    implementation("com.google.android.gms:play-services-location:17.1.0") //optional dependency for better targeting
+//    implementation("androidx.browser:browser:1.3.0")
+//    implementation("com.squareup.picasso:picasso:2.8")
+//    implementation("androidx.recyclerview:recyclerview:1.1.0")
+//    implementation("com.google.android.gms:play-services-appset:16.0.2") //optional dependency for better targeting
+//    implementation("com.google.android.gms:play-services-tasks:18.0.2") //optional dependency for better targeting
+
+//    //mintegral
+//    implementation("com.mbridge.msdk.oversea:mbnative:16.4.11")
+//    //如果您需要使用竞价广告,请添加此条依赖语句。(mbbid)
+//    implementation("com.mbridge.msdk.oversea:mbbid:16.4.11")
+//    implementation("com.mbridge.msdk.oversea:mbnativeadvanced:16.4.11")
+//    implementation("com.mbridge.msdk.oversea:mbsplash:16.4.11")
+//    implementation("com.mbridge.msdk.oversea:mbbanner:16.4.11")
+//    implementation("com.mbridge.msdk.oversea:newinterstitial:16.4.11")
+//
+//    implementation("com.unity3d.ads:unity-ads:4.9.2")
+
+    //max
+    implementation 'com.applovin:applovin-sdk:13.4.0'
+    implementation 'com.applovin.mediation:inmobi-adapter:10.8.7.0'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.android.support:recyclerview-v7:28.+'
+    implementation 'com.android.support:customtabs:28.+'
+    implementation 'com.applovin.mediation:mintegral-adapter:16.9.91.0'
+    implementation 'com.applovin.mediation:facebook-adapter:6.20.0.0'
+
+    implementation("com.google.android.play:review:2.0.2")
+//    implementation ("com.google.android.play:core:1.10.3")
+}

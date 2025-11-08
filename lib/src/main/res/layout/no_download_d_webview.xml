@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:tag="erjiudownpark"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/title_bar"
+            android:layout_height="48dp"
+            android:gravity="center_vertical"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/d_bk_icon"/>
+        </LinearLayout>
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:max="100"
+            android:background="@drawable/d_progress_bg_lib"
+            android:progressDrawable="@drawable/d_pross_status_lib" />
+        <WebView android:id="@+id/webview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
+    </LinearLayout>
+</RelativeLayout>

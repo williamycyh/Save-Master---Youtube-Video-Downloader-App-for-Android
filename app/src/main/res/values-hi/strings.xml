@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="confirm_delete">हटाने की पुष्टि करें?</string>
+    <string name="rename">नाम बदलें</string>
+    <string name="delete">हटाएँ</string>
+    <string name="share">साझा करें</string>
+    <string name="details">विवरण</string>
+    <string name="share_me">मुझे साझा करें</string>
+
+    <string name="confirm">पुष्टि करें</string>
+    <string name="cancel">रद्द करें</string>
+
+    <string name="download_failed">हमें फ़ीडबैक दें</string>
+    <string name="i_want_download">हमें बताएं कि आप किन वेबसाइटों और वीडियो को समर्थन देना चाहेंगे।</string>
+    <string name="feedback">फ़ीडबैक</string>
+</resources>

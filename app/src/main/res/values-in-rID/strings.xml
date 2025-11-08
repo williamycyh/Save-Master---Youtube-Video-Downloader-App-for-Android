@@ -1,0 +1,15 @@
+<resources>
+    <string name="confirm_delete">Konfirmasi penghapusan?</string>
+    <string name="rename">Ganti nama</string>
+    <string name="delete">Hapus</string>
+    <string name="share">Bagikan</string>
+    <string name="details">Detail</string>
+    <string name="share_me">Bagikan Saya</string>
+
+    <string name="confirm">Konfirmasi</string>
+    <string name="cancel">Batal</string>
+
+    <string name="download_failed">Berikan tanggapan kepada kami</string>
+    <string name="i_want_download">Beritahu kami situs web dan video mana yang ingin Anda kami dukung.</string>
+    <string name="feedback">Umpan Balik</string>
+</resources>

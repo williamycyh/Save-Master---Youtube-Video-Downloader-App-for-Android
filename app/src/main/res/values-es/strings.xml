@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="confirm_delete">¿Confirmar eliminación?</string>
+    <string name="rename">Renombrar</string>
+    <string name="delete">Eliminar</string>
+    <string name="share">Compartir</string>
+    <string name="details">Detalles</string>
+    <string name="share_me">Compárteme</string>
+
+    <string name="confirm">Confirmar</string>
+    <string name="cancel">Cancelar</string>
+
+    <string name="download_failed">Danos tu opinión</string>
+    <string name="i_want_download">Dinos qué sitios web y videos te gustaría que admitamos.</string>
+    <string name="feedback">Comentarios</string>
+</resources>

@@ -1,0 +1,38 @@
+//pluginManagement {
+//    repositories {
+//        google()
+//        mavenCentral()
+//        gradlePluginPortal()
+//    }
+//}
+//dependencyResolutionManagement {
+//    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+//    repositories {
+//        google()
+//        mavenCentral()
+//
+//        jcenter()
+//        maven { url = uri("https://artifacts.applovin.com/android") }
+//        maven { setUrl("https://jitpack.io") }
+//        maven { setUrl("https://clojars.org/repo") }
+//        maven { setUrl("https://maven.google.com") }
+//
+//        maven { setUrl("https://artifactory.bidmachine.io/bidmachine") }
+//        maven { setUrl("https://android-sdk.is.com") }
+//        maven { setUrl("https://imobile-maio.github.io/maven") }
+//        maven { setUrl("https://dl-maven-android.mintegral.com/repository/mbridge_android_sdk_oversea") }
+//        maven { setUrl("https://fan-adn.github.io/nendSDK-Android-lib/library") }
+//        maven { setUrl("https://maven.ogury.co") }
+//        maven { setUrl("https://artifact.bytedance.com/repository/pangle") }
+//        maven { setUrl("https://s3.amazonaws.com/smaato-sdk-releases/") }
+//        maven { setUrl("https://sdk.tapjoy.com") }
+//        maven { setUrl("https://verve.jfrog.io/artifactory/verve-gradle-release") }
+//        maven { setUrl("https://artifactory.yahooinc.com/artifactory/maven") }
+//        maven { setUrl("https://oss.sonatype.org/content/repositories/snapshots/") }
+//    }
+//}
+
+rootProject.name = "tubedown"
+include(":app")
+include(":lib")
+include ':okhttp3-persistent-cookiejar'

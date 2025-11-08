@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="142dp"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:background="#666666"
+    android:foreground="?android:attr/selectableItemBackground">
+
+   <LinearLayout
+       android:id="@+id/rename_layout"
+       android:paddingRight="12dp"
+       android:paddingLeft="12dp"
+       android:layout_width="match_parent"
+       android:layout_height="48dp"
+       android:gravity="center_vertical"
+       android:orientation="horizontal">
+      <TextView
+          android:layout_marginEnd="4dp"
+          android:gravity="start"
+          android:layout_weight="1"
+          android:textSize="16sp"
+          android:textColor="@color/white"
+          android:text="Rename"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          tools:ignore="RtlCompat" />
+
+      <ImageView
+          android:layout_width="24dp"
+          android:layout_height="24dp"
+          android:src="@drawable/d_rename"/>
+
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:id="@+id/delete_layout"
+       android:paddingRight="12dp"
+       android:paddingLeft="12dp"
+       android:layout_width="match_parent"
+       android:layout_height="48dp"
+       android:gravity="center_vertical"
+       android:orientation="horizontal">
+      <TextView
+          android:layout_marginEnd="4dp"
+          android:gravity="start"
+          android:layout_weight="1"
+          android:textSize="16sp"
+          android:textColor="@color/white"
+          android:text="Delete"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          tools:ignore="RtlCompat" />
+      <ImageView
+          android:layout_width="24dp"
+          android:layout_height="24dp"
+          android:src="@drawable/d_delete"/>
+   </LinearLayout>
+
+   <LinearLayout
+       android:paddingRight="12dp"
+       android:paddingLeft="12dp"
+       android:layout_width="match_parent"
+       android:layout_height="48dp"
+       android:gravity="center_vertical"
+       android:orientation="horizontal"
+       android:id="@+id/share_layout">
+      <TextView
+          android:layout_marginEnd="4dp"
+          android:gravity="start"
+          android:layout_weight="1"
+          android:textSize="16sp"
+          android:textColor="@color/white"
+          android:text="Share"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          tools:ignore="RtlCompat" />
+
+      <ImageView
+          android:layout_width="24dp"
+          android:layout_height="24dp"
+          android:src="@drawable/d_share"/>
+   </LinearLayout>
+
+   <LinearLayout
+       android:paddingRight="12dp"
+       android:paddingLeft="12dp"
+       android:layout_width="match_parent"
+       android:layout_height="48dp"
+       android:gravity="center_vertical"
+       android:orientation="horizontal"
+       android:id="@+id/detail_layout">
+      <TextView
+          android:layout_marginEnd="4dp"
+          android:gravity="start"
+          android:layout_weight="1"
+          android:textSize="16sp"
+          android:textColor="@color/white"
+          android:text="Details"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          tools:ignore="RtlCompat" />
+
+      <ImageView
+          android:layout_width="24dp"
+          android:layout_height="24dp"
+          android:src="@drawable/d_rename"/>
+   </LinearLayout>
+</LinearLayout>
+

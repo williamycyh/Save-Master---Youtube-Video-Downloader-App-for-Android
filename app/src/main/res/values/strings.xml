@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name" translatable="false">Save Master</string>
+
+    <string name="confirm_delete">Confirm delete?</string>
+    <string name="rename">Rename</string>
+    <string name="delete">Delete</string>
+    <string name="share">Share</string>
+    <string name="details">Details</string>
+    <string name="share_me">Share Me</string>
+
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="download_failed">Feedback to us</string>
+    <string name="i_want_download">Tell us which websites and videos you would like to support.</string>
+    <string name="feedback">FeedBack</string>
+
+</resources>

@@ -1,0 +1,84 @@
+<resources>
+    <string name="dfortwodownload_ownload_path" translatable="false">video_master_download</string>
+    <string name="fortwodownload_extract">You Have To Give Apk Install Permission For That</string>
+
+    <string name="fortwodownload_apkinstall">Apk Install</string>
+    <string name="fortwodownload_version">version</string>
+    <string name="methofortwodownload_de_6">Methode 6</string>
+
+    <string name="confirfortwodownload_m_download">Confirm to download this video?</string>
+    <string name="merfortwodownload_ge_tips">* Will Merge Audio after download.</string>
+    <string name="fortwodownload_merge_failed">Audio Merge failed, Download other resolution pls.</string>
+    <string name="audiofortwodownload__on">Audio/Music</string>
+    <string name="vidfortwodownload_eo">Video</string>
+    <string name="start_fortwodownload_downloading">Start downloading</string>
+    <string name="fortwodownload_voice_merged">Audio merge successful</string>
+
+    <string name="alidownfortwodownload_laodmethode_0">Methode 1</string>
+    <string name="fortwodownload_hode_1">Methode 2</string>
+    <string name="fortwodownload_">Methode 3</string>
+    <string name="metfortwodownload_hode_3">Methode 4</string>
+    <string name="metfortwodownload_hode_4">Methode 5</string>
+    <string name="methfortwodownload_ode_5">Methode 6</string>
+    <string name="itefortwodownload_mowned">Item Owned</string>
+
+    <string name="enter_valid">valid url</string>
+    <string name="pressagain">Please press again to exit</string>
+    <string name="somthing">error occur.</string>
+    <string name="somthing_webiste_panele_block">something block</string>
+    <string name="nodefortwodownload_ifittakeslonger">Loading.... Note if it takes longer then 1 min close the app and retry</string>
+    <string name="nodeifittakeslonger">Loading.... Note if it takes longer then 1 min close the app and retry</string>
+    <string name="pressfortwodownload_again">Please press again to exit</string>
+    <string name="dofortwodownload_wnload">Download</string>
+    <string name="videofortwodownload_s_text"><font color='#FF0400'><i>Videos :</i></font></string>
+    <string name="titfortwodownload_le">Title</string>
+    <string name="durfortwodownload_ation">Duration</string>
+    <string name="sofortwodownload_urce">Source</string>
+    <string name="resfortwodownload_olution">Resolution</string>
+    <string name="filfortwodownload_esize">FileSize</string>
+    <string name="nostofortwodownload_ryfound">No insta Story Found</string>
+    <string name="storifortwodownload_es">Stories</string>
+    <string name="select_the_fortwodownload_ne_dosent_work">Select the desired method to download, try the other one if one doesn\'t work</string>
+    <string name="plfortwodownload_ease_wait">Please wait</string>
+    <string name="downfortwodownload_new_version">Downloading new version...</string>
+
+    <string name="fortwodownload_newupdate">New Update!!!!</string>
+
+    <string name="download_nfortwodownload_otification_description">Downloading new version</string>
+    <string name="pleafortwodownload_se_install">Please install</string>
+    <string name="downloafortwodownload_d_from_store">Download from store</string>
+    <string name="clicktfortwodownload_odownload">Click Here To Download</string>
+
+    <string name="fortwodownload_lotsofnewfeature">Lots of new features!! upgrade to the new version.</string>
+    <string name="fortwodownload_android11usermessage">(Compulsory) If you have done it already then CANCEL it. Android 11 or above users will have to download the Android 11 or above version for Whatsapp status saver to work and will have to give a new permission manage storage for Whatsapp status saver to work, so kindly do that.</string>
+    <string name="grafortwodownload_ntpper">Grant</string>
+
+
+    <string name="methofortwodownload_d_local">Local</string>
+    <string name="methodfortwodownload__local_2">Local 2</string>
+    <string name="methfortwodownload_od_third">Website</string>
+    <string name="methfortwodownload_od_server">Server</string>
+    <string name="logifortwodownload_nfirst">You need to login first to get results</string>
+    <string name="selecfortwodownload_t_quality">Select Quality</string>
+    <string name="fortwodownload_down_notification_title">Downloading...</string>
+
+    <string name="mdc_fortwodownload_lotsofnewfeature">Lots of new features!! upgrade to the new version.</string>
+    <string name="mdc_fortwodownload_android11usermessage">(Compulsory) If you have done it already then CANCEL it. Android 11 or above users will have to download the Android 11 or above version for Whatsapp status saver to work and will have to give a new permission manage storage for Whatsapp status saver to work, so kindly do that.</string>
+    <string name="mdc_grafortwodownload_ntpper">Grant</string>
+
+    <string name="mdc_methofortwodownload_d_local">Local</string>
+    <string name="mdc_methodfortwodownload__local_2">Local 2</string>
+    <string name="mdc_methfortwodownload_od_third">Website</string>
+    <string name="mdc_methfortwodownload_od_server">Server</string>
+    <string name="mdc_logifortwodownload_nfirst">You need to login first to get results</string>
+    <string name="mdc_selecfortwodownload_t_quality">Select Quality</string>
+    <string name="mdc_fortwodownload_down_notification_title">Downloading...</string>
+
+    <string name="urlisprivate">This Url Is Invalid Or Private Try After Logging In The App</string>
+    <string name="Selectdesiredinsta">"Select The Desired Method\n<b><u>Note:</u></b> if SocialI dose not work for you make sure you login into the app by checking the private media checkbox</string>
+    <string name="error_occ">error</string>
+    <string name="logininsta">Login</string>
+    <string name="alert">Alert</string>
+    <string name="cancel">Cancel</string>
+    <string name="txt_exit">Do you want exit?</string>
+</resources>
